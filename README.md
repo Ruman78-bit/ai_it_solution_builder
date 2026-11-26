@@ -2,7 +2,7 @@
 
 A MERN web application for **Cyber Communications** ([cybercommunications.in](https://cybercommunications.in)). Business customers describe their IT needs, review a preliminary AI-generated solution brief, and submit an enquiry. Administrators review enquiries, prepare quotations with approved prices, generate PDF quotations and email them to customers.
 
-> **Portfolio / demo project.** It is not affiliated with or endorsed by Cyber Communications. The service catalogue is illustrative and marked "pending company confirmation" until the company verifies it (see [Catalogue](#service-catalogue)).
+> **Pilot project.** Built for Cyber Communications ([cybercommunications.in](https://cybercommunications.in)) and approved by the company for a pilot. The service catalogue is illustrative and marked "pending company confirmation" until the company verifies it (see [Catalogue](#service-catalogue)).
 
 ## Contents
 
