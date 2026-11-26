@@ -1,0 +1,45 @@
+{
+  "name": "ai-it-solution-builder-backend",
+  "version": "1.0.0",
+  "description": "API for the AI-Powered IT Solution Builder",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "create-admin": "node scripts/createAdmin.js",
+    "test": "jest --runInBand",
+    "test:unit": "jest --runInBand tests/unit"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.5",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.13.1",
+    "morgan": "^1.12.1",
+    "nodemailer": "^10.6.1",
+    "pdfkit": "^0.17.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "mongodb-memory-server": "^11.4.0",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.3.2"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 60000,
+    "setupFiles": [
+      "<rootDir>/tests/env.js"
+    ]
+  }
+}
